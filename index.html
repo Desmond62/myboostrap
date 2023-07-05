@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/all.min.css">
+    <link rel="stylesheet" href="bootstrapmin/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand mx-5" href="#"> <span class="max"> V<span style="color: green;">O</span>YAGE</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-5">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DESTINATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SPECIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOLIDAYS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search for flight 🛫" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
+
+        
+        </div>
+      </div>
+    </nav>
+
+  
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="image/Qatar.jpg" class="d-block w-100 " height="550px" alt="...">
+                  <div class="carousel-caption">
+          <h3 class="display-4">TO TRAVEL IS TO LIVE</h3>
+          <h5>You Don't Need Magic To Disappear, All You Need Is A Destination</h5>
+          <button type="button" class="btn btn btn-lg real2" style="background-color: rgb(117, 255, 209);">SHOW ON THE MAP</button>
+          <button type="button" class="btn btn-outline-light btn-lg mx-3">MORE INFO</button>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/London.jpg" class="d-block w-100 " height="550px" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/Las Vegas.jpg" class="d-block w-100 " height="550px" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+
+      </button>
+    </div>
+
+
+    <section class="pt-2 pb-2" style="background-color: rgb(43, 17, 117)">
+
+    <div class="container-fluid real mt-4">
+      <div class="row welcome text-around">
+        <div class="col-md-4 text">
+      <h6>FIND YOUR</h6>
+      <h5>HOLIDAY</h5>
+        </div>
+        <div class="col-md-4 mb-3">
+         <form class="all" action="">
+          <span style="color: white;">Where</span><input type="text" placeholder="Destination" class="p-2">
+         </form>
+            </div>
+            <div class="col-md-4">
+              <form class="all" action="">
+                <span style="color: white;">When</span><input type="date" class="p-2 input1" required>
+                <button class="btn btn-outline-success p-2 text-center" type="submit" style="background-color:  rgb(117, 255, 209);">Search</button>
+               </form>
+                </div>
+      </div>
+    </div>
+    </section>
+
+
+      <!-- Special Offer Section -->
+<div class="container-fluid p-4" style="background-color: white;">
+  <div class="row welcome text-center">
+    <div class="col-12 text2">
+    <h6>SPECIAL OFFERS</h6>
+    <p>Best 2023 Packages where People love to stay'</p>
+  </div>
+  </div>
+</div>
+
+    <!-- Card Section -->
+    <div class="container-fluid pb-5" style="background-color: white;">
+      <div class="row">
+        <div class="col-md-2 vib">
+          <div class="card">
+            <img src="image/Singapore.jpg" width="100%" height="133px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Tokyo City     <i class="fas fa-chevron-down"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 vib">
+          <div class="card">
+            <img src="image/London.jpg" width="100%" height="133px" class="" alt="...">
+            <div class="card-body">
+              <p class="card-text">Vegas City  <i class="fas fa-chevron-down"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 vib">
+          <div class="card">
+            <img src="image/China.jpg" width="100%" height="133px" class="" alt="...">
+            <div class="card-body">
+              <p class="card-text">China City  <i class="fas fa-chevron-down"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 vib">
+          <div class="card">
+            <img src="image/London.jpg" width="100%" height="133px" class="" alt="...">
+            <div class="card-body">
+              <p class="card-text">London City  <i class="fas fa-chevron-down"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 vib">
+          <div class="card">
+            <img src="image/China.jpg" width="100%" height="133px" class="" alt="...">
+            <div class="card-body">
+              <p class="card-text">Qatar City  <i class="fas fa-chevron-down"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 vib">
+          <div class="card">
+            <img src="image/Singapore.jpg" width="100%" height="133px" class="" alt="...">
+            <div class="card-body">
+              <p class="card-text">Blue City  <i class="fas fa-chevron-down"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fixed Image Section -->
+    <section class="back p-5">
+ <div class="container-fluid p-5">
+<div class="row welcome text-center" style="color: white;">
+  <div class="col-12 des">
+    <h6>HOLIDAYS TYPE</h6>
+    <p>Best 2023 Packages where People love to stay'</p>
+  </div>
+</div>
+ </div>
+
+ <div class="container overflow-hidden p-5">
+  <div class="row welcome text-center gx-0 " style="color: white;">
+    <div class="col-md-2 para">
+    <i class="fa fa-city"></i>
+    <p>City Break</p>
+    </div>
+    <div class="col-md-2 para">
+      <i class="fa fa-clock"></i>
+      <p>World Clock</p>
+      </div>
+      <div class="col-md-2 para">
+        <i class="fab fa-space-awesome"></i>
+        <p>Adventure Plane</p>
+        </div>
+        <div class="col-md-2 para">
+          <i class="fa fa-city"></i>
+          <p>Sky Scraper</p>
+          </div>
+          <div class="col-md-2 para">
+            <i class="fab fa-space-awesome"></i>
+            <p>Advemture Cruise</p>
+            </div>
+            <div class="col-md-2 para">
+              <i class="fa fa-clock"></i>
+              <p>Honeymoon</p>
+              </div>
+  </div>
+   </div>
+    </section>
+
+
+    <!-- Happy Clients Section -->
+    <section style="background-color: white;">
+      <div class="container-fluid p-5">
+        <div class="row welcome text-center">
+          <div class="col-12 para2">
+            <h6>HAPPY CLIENTS</h6>
+            <p>What our Customers says about us and why Love our Service'</p>
+          </div>
+        </div>
+         </div>
+
+         <div class="container pb-5">
+          <div class="row text-center justify-content-between user">
+            <div class="col-md-3 text3 p-4 text6 mb-3">
+              <p>Get started with Bootstrap, the world’s most popular framework for building responsive,.</p>
+              <i class="fa fa-user"></i> <span>Kai Harvertz</span>
+              <p>Boostrap is a frame work</p>
+            </div>
+            <div class="col-md-3 text3 p-4 text6 mb-3">
+              <p>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+              <i class="fa fa-user"></i> <span>Loe Messi</span>
+              <p>Boostrap is a frame work</p>
+            </div>
+            <div class="col-md-3 text3 p-4 text6 mb-3">
+              <p>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+              <i class="fa fa-user"></i> <span>Julian Alverez</span>
+              <p>Boostrap is a frame work</p>
+            </div>
+            <div class="col-md-3 text3 p-4 text6 mb-3">
+              <p>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+              <i class="fa fa-user"></i> <span>Nyemar Junior</span>
+              <p>Boostrap is a frame work</p>
+            </div>
+
+          </div>
+         </div>
+    </section>
+   
+
+
+    <!-- Footer Sectipn -->
+    <section style="background-color: #1e092c;">
+<div class="container-fluid p-3">
+<div class="row text-white justify-content-between user2">
+  <div class="col-lg-3 col-sm-6 col-md-3">
+<h4 class="mb-4">NEWSLETTER</h4>
+<p>Subcribe to our Youtube channel <i class="fab fa-youtube"></i></p>
+   <form class="d-flex mb-5">
+            <input type="search" placeholder="Subcribe" aria-label="Search" required>
+            <button type="submit">Go</button>
+          </form>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-md-3">
+   <h4 class="">LATEST NEWS</h4>
+<div>
+<img src="image/Las Vegas.jpg" style="width: 35px;height: 30px;"  alt=""> <span>Let's work together'</span>
+<p style="color: green;" class="text-center">Yes'</p> 
+</div>
+<div class="mb-5">
+  <img src="image/Qatar.jpg"  style="width: 35px;height: 30px;"  alt=""> <span>Come and join us now Asap'</span>
+  <p style="color: green;" class="text-center">Okay'</p> 
+  </div>
+  </div>
+
+  <div class="col-lg-3 col-sm-6 col-md-3">
+    <h4 class="">TAGS</h4>
+    <div class="strap mb-5">
+      <div>Alverez Julian</div>
+      <div>Instagram Blog</div> <br>
+      <div>Loe Messi</div>
+      <div>C Ronaldo</div><br>
+      <div> B Silva</div>
+      <div>M Harry</div>
+      <div>Smith Mary</div><br>
+      <div>Joe Cia</div>
+      <div>Cruise</div>
+      <div>Safari</div>
+    </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-md-3">
+        <h4 class="mb-4">CONTACTS US</h4>
+           <form class="">
+            <div class="footer">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Number">
+              <input type="text" placeholder="Your Address">
+             <div class="text-center"><button type="submit">Send</button></div> 
+            </div>
+                  </form>
+          </div>
+</div>
+</div>
+
+
+
+ 
+
+    </section>
+
+
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

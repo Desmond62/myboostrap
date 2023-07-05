@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body,html{
+    scroll-behavior: smooth;
+}
+
+::placeholder{
+    font-size: 13px;
+}
+.max{
+    font-size: 30px;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    font-weight: 800;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+}
+
+.carousel-caption h3{
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption button{
+    font-size: 12px;
+}
+
+.carousel-caption h5{
+    font-size: 20px;
+    /* font-weight: 500; */
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+.carousel-control-prev-icon{
+    background-color:  grey;
+}
+.carousel-control-prev-icon:hover{
+    background-color:  rgb(117, 255, 209);
+}
+.carousel-control-next-icon{
+    background-color:  grey;
+}
+.carousel-control-next-icon:hover{
+    background-color:  rgb(117, 255, 209);
+}
+/* .real{
+    background-color: rgb(5, 5, 45);
+} */
+
+.all input{
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+}
+/* .all button{
+    width: 100%;
+    transition: .5ss ease-in-out;
+
+  }   */
+.text h6{
+    color: white;
+}
+.text h5{
+    color: white;
+    font-weight: 800;
+}
+.text2 h6{
+    font-weight: 800;
+    color: rgb(58, 56, 56);
+}
+.text2 p{
+    font-size: 14px;
+}
+
+.card:hover{
+    background-color: rgb(90, 14, 230);
+    color: white;
+    /* border: 2px solid rgb(117, 255, 209); */
+    transition: .5s ease-in;
+
+
+}
+
+.vib .card img{
+    transition: 0.3s ease;
+    
+}
+
+.vib .card img:hover{
+    width: 100%;
+    transform: scale(1.05);
+
+}
+.card{
+    cursor: pointer;
+    box-shadow: 3px 3px 7px grey;
+
+
+}
+/* .card-body{
+    background-color: rgb(198, 191, 191);
+
+} */
+.card-body p{
+    font-weight: 710;
+    /* color: grey; */
+}
+.fas{
+    margin-left: 10px;
+}
+.card{
+   overflow: hidden;
+   transition: 0.3s ease;
+
+}
+
+
+/* Fixed image section */
+.back{
+    background-image: url('image/blue.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(70%);
+}
+.para p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.fa-city{
+    font-size: 40px;
+    border: 3px solid white;
+    padding: 30px 23px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 7px white;
+
+}
+.fa-space-awesome{
+    font-size: 40px;
+    border: 3px solid white;
+    padding: 30px 28px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 7px white;
+}
+.fa-clock{
+    font-size: 40px;
+    border: 3px solid white;
+    padding: 30px 28px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 7px white;
+}
+
+.fa-clock:hover{
+ color:  rgb(117, 255, 209);
+ border: 3px solid  rgb(117, 255, 209);
+ transition: .5s ease-in-out;
+
+}
+
+.fa-space-awesome, .fa-clock:hover{
+    color:  rgb(117, 255, 209);
+    border: 3px solid  rgb(117, 255, 209);
+    transition: .5s ease-in-out;
+
+   }
+   
+.fa-city:hover{
+    color:  rgb(117, 255, 209);
+    border: 3px solid  rgb(117, 255, 209);
+   transition: .5s ease-in-out;
+   }
+
+
+   /* Happy client section */
+   .para2 h6{
+    font-weight: 800;
+   }
+   .text3{
+    text-align: justify;
+    border: none;
+    border: 1px solid gainsboro;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px grey;
+    border-top: 3px solid  rgb(19, 187, 131);
+   }
+
+   .fa-user{
+    color:  rgb(19, 187, 131);
+    font-size: 20px;
+    margin-right: 5px;
+   }
+   .text3 span{
+    color:  rgb(19, 187, 131);
+    font-size: 15px;
+
+   }
+   .text6{
+    margin: -20px;
+   }
+
+.strap div{
+    display: inline-block;
+    border: 2px solid grey;
+    margin: 3px;
+}
+.footer{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.footer input{
+    width: 100%;
+    margin-bottom: 7px;
+    background-color: gainsboro;
+    border: none;
+    padding: 4px;
+}
+.footer button{
+    width: 100%;
+    padding: 4px;
+    background-color: gainsboro;
+    border: none;
+background-color: rgb(24, 156, 75);
+transition: 0.5s ease-in-out;
+}
+.footer button:hover{
+    width: 50%; 
+}
+
+.d-flex input{
+    width: 100%;
+    background-color: gainsboro;
+    border: none;
+    padding: 4px;
+}
+
+.d-flex button{
+    padding: 4px 7px;
+    border: none;
+    color: white;
+    background-color: rgb(24, 156, 75);
+margin-left: 10px;
+}
+/* .user2{
+    margin: -20px;
+} */
+   @media(max-width: 767px){
+    .back{
+        background-image: url('image/blue.jpg');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        filter: brightness(70%);
+    }
+    .fa-city{
+       margin-bottom: 30px;
+    }
+    .fa-space-awesome{
+      margin-bottom: 30px;
+    }
+    .fa-clock{
+       margin-bottom: 30px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+   }
+@media(max-width: 1200px){
+.vib img{
+    height: auto;
+}
+   
+}
+@media(max-width: 1334px){
+    .all input{
+        width: 100%;
+        border-radius: 7px;
+        border: none;
+        margin-left: 10px;
+    }
+    .all button{
+        float: right;
+        margin-top: 10px;
+    }   
+    }
+
+@media(max-width: 395px){
+
+    .carousel-caption{
+        position: absolute;
+        top: 55%;
+        transform: translateY(-55%);
+    }  
+    .real2{
+        margin-bottom: 20px;
+    }
+    .des p{
+        font-size: 12px;
+    }
+    }
+    @media(max-width: 637px){
+    
+        .carousel-caption h3{
+            font-size: 25px;
+            font-weight: 800;
+            text-shadow: 1px 1px 15px #000;
+        }
+     
+        
+        .carousel-caption h5{
+            font-size: 18px;
+            /* font-weight: 500; */
+            text-shadow: 1px 1px 10px #000;
+            padding-bottom: 1rem;
+        }     
+        }
+        @media(max-width: 4425px){
+            .max{
+                font-size: 22px;
+                letter-spacing: 0.2rem;
+                font-weight: 800;
+            }
+        
+        }
+    @media(max-width: 471px){
+    
+        .carousel-caption h3{
+            font-size: 20px;
+            font-weight: 800;
+            text-shadow: 1px 1px 15px #000;
+        }
+     
+        
+        .carousel-caption h5{
+            font-size: 15px;
+            /* font-weight: 500; */
+            text-shadow: 1px 1px 10px #000;
+            padding-bottom: 1rem;
+        }     
+        }
+    @media(max-width: 767px){
+        .all button{
+          /* width: 100%; */
+          transition: .5ss ease-in-out;
+            border-radius: 15px;
+            font-size: 20px;
+            margin: 10px 0px 20px 0px;
+            color: white;
+        }   
+           
+        }
+        @media(max-width: 672px){
+            .text6{
+                margin: 0px;
+               }
+               
+            }
+      
