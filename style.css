@@ -288,6 +288,16 @@ margin-left: 10px;
     transform: translateY(-30%);
 }  */
 }
+@media(max-width: 883px){
+.back{
+    background-image: url('image/blue.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    filter: brightness(70%);
+}
+    }
 @media(max-width: 1334px){
     .all input{
         width: 100%;
