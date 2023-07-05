@@ -281,7 +281,12 @@ margin-left: 10px;
 .vib img{
     height: auto;
 }
-   
+ 
+ /* .carousel-caption{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+}  */
 }
 @media(max-width: 1334px){
     .all input{
