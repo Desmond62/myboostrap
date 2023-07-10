@@ -54,7 +54,7 @@
 } */
 
 .all input{
-    width: 300px;
+    width: 230px;
     border-radius: 7px;
     border: none;
     margin-left: 10px;
@@ -304,6 +304,7 @@ margin-left: 10px;
         border-radius: 7px;
         border: none;
         margin-left: 10px;
+        margin: 0;
     }
     .all button{
         float: right;
